@@ -1,0 +1,1880 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+header{
+    background-color: rgba(49,153,206,255);
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+@media(min-width:320px) and (max-width:323px){
+    img{
+        height: 400px;
+        width: 90%;
+        padding-left: 5%;
+    }
+    
+    a{
+        background-color: rgba(49,153,206,255);
+        text-decoration: none;
+        padding: 10px;
+        float: right;
+        color: #fff;
+        border-radius: 10px;
+        margin-top: 2%;
+        margin-right: 1%;
+    }
+
+    .appoint{
+        margin-top: 2.75%;
+        margin-left: 1%;
+        float: left;
+        border-radius: 10px;
+        padding: 3px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 90%;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.75%;
+        margin-left: .5%;
+        border-radius: 10px;
+        padding: 3px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 90%;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2.2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 90%;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 3%;
+        margin-left: 1%;
+        height: 20px;
+        width: 20px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 80%;
+        float: left;
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }   
+}
+
+@media(min-width:324px) and (max-width:330px){
+    img{
+        height: 400px;
+        width: 90%;
+        padding-left: 5%;
+    }
+    
+    a{
+        background-color: rgba(49,153,206,255);
+        text-decoration: none;
+        padding: 10px;
+        float: right;
+        color: #fff;
+        border-radius: 10px;
+        margin-top: 2%;
+        margin-right: 1%;
+    }
+
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 1%;
+        float: left;
+        border-radius: 10px;
+        padding: 3px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 90%;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: .5%;
+        border-radius: 10px;
+        padding: 3px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 90%;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2.5%;
+        margin-right: 2%;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 90%;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 3%;
+        margin-left: 2%;
+        height: 20px;
+        width: 20px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 80%;
+        float: left;
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }   
+}
+
+@media(min-width:331px) and (max-width:359px){
+    img{
+        height: 500px;
+        width: 100%;
+    }
+    
+    a{
+        background-color: rgba(49,153,206,255);
+        text-decoration: none;
+        padding: 10px;
+        float: right;
+        color: #fff;
+        border-radius: 10px;
+        margin-top: 2%;
+        margin-right: 1%;
+    }
+
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 3%;
+        float: left;
+        border-radius: 10px;
+        padding: 3px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 90%;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: .5%;
+        border-radius: 10px;
+        padding: 3px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 90%;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2.5%;
+        margin-right: 2%;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 90%;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 3%;
+        margin-left: 2%;
+        height: 20px;
+        width: 20px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 80%;
+        float: left;
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }   
+}
+
+@media(min-width:360px) and (max-width:375px){
+    img{
+        height: 700px;
+        width: 100%;
+    }
+    
+    a{
+        background-color: rgba(49,153,206,255);
+        text-decoration: none;
+        padding: 10px;
+        float: right;
+        color: #fff;
+        border-radius: 10px;
+    }
+
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 2%;
+        float: left;
+        border-radius: 10px;
+        padding: 3px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 100%;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 3%;
+        border-radius: 10px;
+        padding: 3px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 100%;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2.5%;
+        margin-right: 2%;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 15px;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 3%;
+        margin-left: 3%;
+        height: 20px;
+        width: 20px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 90%;
+        float: left;
+        margin-top: 3.5%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }   
+}
+
+@media(min-width:376px) and (max-width:400px){
+    img{
+        height: 700px;
+        width: 100%;
+    }
+    
+    a{
+        background-color: rgb(29, 125, 214);
+        text-decoration: none;
+        padding: 10px;
+        float: right;
+        color: #fff;
+        border-radius: 10px;
+    }
+
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 3%;
+        float: left;
+        border-radius: 10px;
+        padding: 3px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 100%;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 3%;
+        border-radius: 10px;
+        padding: 3px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 15px;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2.5%;
+        margin-right: 2%;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 15px;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 3%;
+        margin-left: 6%;
+        height: 20px;
+        width: 20px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 90%;
+        float: left;
+        margin-top: 3.5%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }   
+}
+
+@media(min-width:401px) and (max-width:405px){
+    img{
+        height: 700px;
+        width: 100%;
+    }
+    
+    a{
+        margin-top: 1.5%;
+        margin-right: 2%;
+        float: right;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 80%;
+        font-weight: normal; 
+    }
+    
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 1.5%;
+        float: left;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 105%;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 1.5%;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 105%;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2.5%;
+        margin-right: 2%;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 105%;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 4%;
+        margin-left: 1.5%;
+        height: 20px;
+        width: 20px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 100%;
+        float: left;
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }   
+}
+
+@media(min-width:406px) and (max-width:409px){
+    img{
+        height: 700px;
+        width: 100%;
+    }
+    
+    a{
+        margin-top: 1.5%;
+        margin-right: 2%;
+        float: right;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 80%;
+        font-weight: normal; 
+    }
+    
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 2%;
+        float: left;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 105%;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 2%;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 105%;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2.5%;
+        margin-right: 2%;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 105%;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 4%;
+        margin-left: 2%;
+        height: 20px;
+        width: 20px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 100%;
+        float: left;
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }   
+}
+
+@media(min-width:410px) and (max-width:440px){
+    img{
+        height: 700px;
+        width: 100%;
+    }
+    
+    a{
+        margin-top: 1.5%;
+        margin-right: 2%;
+        float: right;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 80%;
+        font-weight: normal; 
+    }
+    
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 2%;
+        float: left;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 105%;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 2%;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 105%;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2.5%;
+        margin-right: 2%;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 105%;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 3.2%;
+        margin-left: 3%;
+        height: 20px;
+        width: 20px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 100%;
+        float: left;
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }   
+}
+
+@media(min-width:441px) and (max-width:459px){
+    img{
+        height: 700px;
+        width: 100%;
+    }
+    
+    a{
+        margin-top: 1.5%;
+        margin-right: 2%;
+        float: right;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 100%;
+        font-weight: normal; 
+    }
+    
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 3%;
+        float: left;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 110%;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 2%;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 110%;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2.5%;
+        margin-right: 2%;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 110%;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 4%;
+        margin-left: 6%;
+        height: 20px;
+        width: 20px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 100%;
+        float: left;
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }   
+}
+
+@media(min-width:460px) and (max-width:510px){
+    img{
+        height: 700px;
+        width: 100%;
+    }
+    
+    a{
+        margin-top: 1.5%;
+        margin-right: 2%;
+        float: right;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 110%;
+        font-weight: normal; 
+    }
+    
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 2%;
+        float: left;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 107%;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 2%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 107%;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2%;
+        margin-right: 1%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 107%;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 3%;
+        margin-left: 2%;
+        height: 25px;
+        width: 25px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 105%;
+        float: left;
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 140%;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }
+}
+
+@media(min-width:510px) and (max-width:540px){
+    img{
+        height: 700px;
+        width: 100%;
+    }
+    
+    a{
+        margin-top: 1.5%;
+        margin-right: 2%;
+        float: right;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 110%;
+        font-weight: normal; 
+    }
+    
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 3%;
+        float: left;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 110%;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 4%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 110%;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2%;
+        margin-right: 1%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 110%;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 2%;
+        margin-left: 6%;
+        height: 30px;
+        width: 30px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 110%;
+        float: left;
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 140%;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }
+}
+
+@media(min-width:541px) and (max-width:620px){
+    img{
+        height: 700px;
+        width: 100%;
+    }
+    
+    a{
+        margin-top: 1.5%;
+        margin-right: 2%;
+        float: right;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal; 
+    }
+    
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 6%;
+        float: left;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 120%;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 4%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 120%;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2%;
+        margin-right: 1%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 120%;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 2%;
+        height: 30px;
+        width: 30px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 120%;
+        float: left;
+        margin-top: 3.5%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }
+}
+
+@media(min-width:621px) and (max-width:655px){
+    img{
+        height: 700px;
+        width: 100%;
+    }
+    
+    a{
+        margin-top: 1.5%;
+        margin-right: 2%;
+        float: right;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal; 
+    }
+    
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 6%;
+        float: left;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 120%;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 4%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 120%;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2.2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 120%;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 6%;
+        height: 30px;
+        width: 30px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: rgb(238, 229, 229);
+        font-size: 110%;
+        float: left;
+        margin-top: 3.5%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }
+}
+
+@media(min-width:656px) and (max-width:768px){
+    img{
+        height: 700px;
+        width: 100%;
+    }
+    
+    a{
+        margin-top: 1.5%;
+        margin-right: 2%;
+        float: right;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal; 
+    }
+    
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 8%;
+        float: left;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 8%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2.2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 8%;
+        height: 30px;
+        width: 30px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 120%;
+        float: left;
+        margin-top: 3.5%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }
+}
+
+@media(min-width:769px) and (max-width:847px){
+    img{
+        height: 700px;
+        width: 100%;
+    }
+    
+    a{
+        margin-top: 1.5%;
+        margin-right: 2%;
+        float: right;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal; 
+    }
+    
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 6%;
+        float: left;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 6%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2%;
+        margin-right: 3%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 2%;
+        margin-left: 18%;
+        height: 40px;
+        width: 40px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 120%;
+        float: left;
+        margin-top: 3.2%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 160%;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }
+}
+
+@media(min-width:848px) and (max-width:920px){
+    img{
+        height: 700px;
+        width: 100%;
+    }
+    
+    a{
+        margin-top: 1.5%;
+        margin-right: 2%;
+        float: right;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal; 
+    }
+    
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 6%;
+        float: left;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 6%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2%;
+        margin-right: 3%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 2%;
+        margin-left: 18%;
+        height: 40px;
+        width: 40px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 130%;
+        float: left;
+        margin-top: 3%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }
+}
+
+@media(min-width:921px) and (max-width:992px){
+    img{
+        height: 700px;
+        width: 100%;
+    }
+    
+    a{
+        margin-top: 1.5%;
+        margin-right: 2%;
+        float: right;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal; 
+    }
+    
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 12%;
+        float: left;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 10%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2%;
+        margin-right: 3%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 2%;
+        margin-left: 18%;
+        height: 40px;
+        width: 40px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 120%;
+        float: left;
+        margin-top: 3%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }
+}
+
+@media(min-width:993px) and (max-width:1270px){
+    img{
+        height: 700px;
+        width: 100%;
+    }
+    
+    a{
+        margin-top: 1.5%;
+        margin-right: 2%;
+        float: right;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal; 
+    }
+    
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 12%;
+        float: left;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 10%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2%;
+        margin-right: 3%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 2%;
+        margin-left: 25%;
+        height: 40px;
+        width: 40px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 160%;
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }    
+}
+
+@media(min-width:1271px) and (max-width:1350px){
+    img{
+        height: 700px;
+        width: 100%;
+    }
+    
+    a{
+        margin-top: 1.5%;
+        margin-right: 2%;
+        float: right;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal; 
+    }
+    
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 12%;
+        float: left;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 10%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2%;
+        margin-right: 3%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 2%;
+        margin-left: 30%;
+        height: 40px;
+        width: 40px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 130%;
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }    
+}
+
+@media(min-width:1351px){
+    img{
+        height: 700px;
+        width: 100%;
+    }
+    
+    a{
+        margin-top: 1.5%;
+        margin-right: 2%;
+        float: right;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal; 
+    }
+    
+    .appoint{
+        margin-top: 2.5%;
+        margin-left: 12%;
+        float: left;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    .register{
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 10%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    header .logout{
+        float: right;
+        margin-top: 2%;
+        margin-right: 3%;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(49,153,206,255);
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgba(49,153,206,255);
+    }
+    
+    header img{
+        float: left;
+        margin-top: 2%;
+        margin-left: 35%;
+        height: 40px;
+        width: 40px;
+        padding-bottom: 1%;
+    }
+    
+    header p{
+        color: white;
+        font-size: 120%;
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 2%;
+    }
+    
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        color: white;
+        background-color: rgba(49,153,206,255);
+        padding: 20px;
+        scroll-snap-align: start;
+    }
+}
